@@ -7,6 +7,7 @@
 }
 
 body {
+    width: fit-content;
     color: #ededed;
     background: #081b29;
 }
@@ -327,19 +328,19 @@ body {
     transform-origin: left;
 }
 .progress-line.html span{
-    width: 80%;
+    width: 95%;
 }
 .progress-line.css span{
-    width: 60%;
+    width: 85%;
 }
 .progress-line.javascript span{
-    width: 65%;
+    width: 89%;
 }
 .progress-line.java span{
     width: 85%;
 }
 .progress-line.cpp span{
-    width: 75%;
+    width: 80%;
 }
 .progress-line span::after{
     position: absolute;
@@ -354,19 +355,19 @@ body {
     opacity: 0;
 }
 .progress-line.html span::after{
-    content:"80%";
+    content:"";
 }
 .progress-line.css span::after{
-    content:"60%";
+    content:"";
 }
 .progress-line.javascript span::after{
-    content:"65%";
+    content:"";
 }
 .progress-line.java span::after{
-    content:"85%";
+    content:"";
 }
 .progress-line.cpp span::after{
-    content:"75%";
+    content:"";
 }
 .progress-line span::before{
     content: "";
@@ -446,22 +447,22 @@ body {
 }
 @keyframes animate-path1 {
     100%{
-        stroke-dashoffset: 60;
+        stroke-dashoffset: 85;
     }
 }
 @keyframes animate-path2 {
     100%{
-        stroke-dashoffset: 75;
+        stroke-dashoffset: 89;
     }
 }
 @keyframes animate-path3 {
     100%{
-        stroke-dashoffset: 80;
+        stroke-dashoffset: 90;
     }
 }
 @keyframes animate-path4 {
     100%{
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 95;
     }
 }
 .radial-bar .percentage{
